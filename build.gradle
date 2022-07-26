@@ -8,3 +8,7 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+allprojects {
+    group = 'xyz.c3rberuss.utils'
+}
