@@ -1,12 +1,7 @@
 package xyz.c3rberuss.fieldsvalidator
 
-import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.text.buildSpannedString
-import androidx.core.text.color
-import xyz.c3rberuss.fields_validator.Validators
-import xyz.c3rberuss.fields_validator.validate
 import xyz.c3rberuss.fieldsvalidator.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         _binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+
 
     }
 

@@ -10,8 +10,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        sourceControl {
+            gitRepository("https://github.com/c3rberuss/android-input-fields-validators.git") {
+                producesModule("xyz.c3rberuss.fieldsvalidator:validator")
+            }
+        }
     }
 }
 rootProject.name = "Fields Validator"
 include ':app'
-include ':app:validator'
+include ':validator'
